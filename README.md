@@ -1,30 +1,30 @@
 <!-- markdownlint-disable -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/logo.png" alt="logo" width="120">
+  <img src="https://raw.githubusercontent.com/SENODROOM/QuantumMaterialIconTheme/main/logo.png" alt="logo" width="120">
 </p>
 
-<h1 align="center">Material Icon Theme</h1>
+<h1 align="center">Quantum Material Icon Theme</h1>
 
-<p align="center"><em>Material Design icons for Visual Studio Code</em></p>
+<p align="center"><em>Material Design icons for Visual Studio Code, with icons for Quantum Logics file types</em></p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"><img src="https://img.shields.io/npm/v/material-icon-theme?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="NPM Version"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"><img src="https://img.shields.io/badge/Rating-4.9%2F5-43A047?style=for-the-badge&colorA=263238&colorB=43A047" alt="Rating"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"><img src="https://img.shields.io/badge/Installations-%3E30M-43A047?style=for-the-badge&colorA=263238&colorB=43A047" alt="Installations"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=muhammadsaadamin.quantum-material-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/muhammadsaadamin.quantum-material-icon-theme?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="Version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=muhammadsaadamin.quantum-material-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/muhammadsaadamin.quantum-material-icon-theme?style=for-the-badge&colorA=263238&colorB=43A047&label=INSTALLS" alt="Installs"></a>
 </p>
 
 <br />
 
+> This extension is based on [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme) by the Material Extensions team, licensed under MIT. All credit for the original icons and features goes to them. If you enjoy the icons, consider [supporting the original project](https://github.com/sponsors/material-extensions).
 
-<p align="center">Enjoying Material Icon Theme? Support the project by starring it or becoming a sponsor!</p>
+### Quantum Logics icons
 
-<p align="center">
-  <a href="https://github.com/sponsors/material-extensions"><img src="https://img.shields.io/badge/Sponsor-GitHub-blue?logo=github-sponsors&style=for-the-badge&colorA=263238&colorB=EC407A" alt="Sponsor on GitHub"></a>
-  <a href="https://github.com/material-extensions/vscode-material-icon-theme"><img src="https://img.shields.io/github/stars/material-extensions/vscode-material-icon-theme?style=for-the-badge&label=Star%20on%20GitHub&colorA=263238&colorB=1976D2" alt="Star on GitHub"></a>
-</p>
+In addition to everything in Material Icon Theme, this extension adds icons for:
 
-<br />
+| File                        | Icon            |
+|-----------------------------|-----------------|
+| `*.sa`                      | Quantum logo    |
+| `*.qon`, `.qpmignore`       | QPM logo        |
 
 ### File icons
 
@@ -58,10 +58,10 @@
 ## Getting Started
 
 1. **Install the extension**<br>
-  [![Install in VS Code](https://img.shields.io/badge/Install%20in%20VS%20Code-Click%20to%20Install-4CAF50?style=for-the-badge&logo=visualstudiocode&logoColor=white&colorA=263238&colorB=4CAF50)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  [![Install in VS Code](https://img.shields.io/badge/Install%20in%20VS%20Code-Click%20to%20Install-4CAF50?style=for-the-badge&logo=visualstudiocode&logoColor=white&colorA=263238&colorB=4CAF50)](https://marketplace.visualstudio.com/items?itemName=muhammadsaadamin.quantum-material-icon-theme)
 
 2. **Activate the icon theme**<br>
-  Open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS), type `Material Icons: Activate Icon Theme`, and select it.
+  Open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS), type `Quantum Icons: Activate Icon Theme`, and select it.
 
 3. **Enjoy your new icons**<br>
   Your editor will now display beautiful, customizable Material Design icons for files and folders.
@@ -79,8 +79,8 @@ You can change the color of the default file and folder icons using the command 
 or via user settings:
 
 ```json
-"material-icon-theme.folders.color": "#ef5350",
-"material-icon-theme.files.color": "#42a5f5",
+"quantum-material-icon-theme.folders.color": "#ef5350",
+"quantum-material-icon-theme.files.color": "#42a5f5",
 ```
 
 ### Folder themes
@@ -92,7 +92,7 @@ You can change the design of the folder icons using the command palette:
 or via user settings:
 
 ```json
-"material-icon-theme.folders.theme": "specific"
+"quantum-material-icon-theme.folders.theme": "specific"
 ```
 
 ### Custom icon opacity
@@ -100,7 +100,7 @@ or via user settings:
 You can set a custom opacity for the icons:
 
 ```json
-"material-icon-theme.opacity": 0.5
+"quantum-material-icon-theme.opacity": 0.5
 ```
 
 ### Custom icon saturation
@@ -108,7 +108,7 @@ You can set a custom opacity for the icons:
 If colors do not make you happy you can change the icons to have less saturation making them look grayish or completely grayscale by setting saturation to 0:
 
 ```json
-"material-icon-theme.saturation": 0.5
+"quantum-material-icon-theme.saturation": 0.5
 ```
 
 You can also achieve no saturation (i.e., grayscale) by setting **Toggle Grayscale** to ON.
@@ -124,7 +124,7 @@ With the `*.[extension]` pattern you can define custom file icon associations. F
 If there's no leading `*` it will be automatically configured as filename and not as file extension.
 
 ```json
-"material-icon-theme.files.associations": {
+"quantum-material-icon-theme.files.associations": {
     "*.ts": "typescript",
     "**.json": "json",
     "fileName.ts": "angular"
@@ -147,7 +147,7 @@ For example a custom SVG file called `sample.svg` can be placed in an `icons` fo
 In the settings.json (User Settings only!) the icon can be associated to a file name or file extension like this:
 
 ```json
-"material-icon-theme.files.associations": {
+"quantum-material-icon-theme.files.associations": {
     "fileName.ts": "../../icons/sample"
 }
 ```
@@ -159,7 +159,7 @@ _Note: The custom file name must be configured in the settings without the file 
 It's also possible to clone existing file icons and change their colors to create new icons that can be associated with file names or file extensions. The following example shows how to clone the `rust` icon:
 
 ```json
-"material-icon-theme.files.customClones": [
+"quantum-material-icon-theme.files.customClones": [
   {
     "name": "rust-mod",
     "base": "rust",
@@ -188,7 +188,7 @@ This will create two new icons called `rust-mod` and `rust-lib` that are associa
 The following configuration can customize the folder icons. It is also possible to overwrite existing associations and create nice combinations. For example you could change the folder theme to "classic" and define icons only for the folder names you like.
 
 ```json
-"material-icon-theme.folders.associations": {
+"quantum-material-icon-theme.folders.associations": {
     "customFolderName": "src",
     "sample": "dist"
 }
@@ -211,7 +211,7 @@ In our example we place them into an `icons` folder inside of the `.vscode/exten
 In the settings.json (User Settings only!) the folder icons can be associated to a folder name (e.g. "src") like this:
 
 ```json
-"material-icon-theme.folders.associations": {
+"quantum-material-icon-theme.folders.associations": {
     "src": "../../../../icons/folder-sample"
 }
 ```
@@ -221,7 +221,7 @@ In the settings.json (User Settings only!) the folder icons can be associated to
 It's also possible to clone existing folder icons and change their colors to create new icons that can be associated with folder names. The following example shows how to clone the `admin` folder icon:
 
 ```json
-"material-icon-theme.folders.customClones": [
+"quantum-material-icon-theme.folders.customClones": [
   {
     "name": "users-admin",
     "base": "admin",
@@ -254,7 +254,7 @@ You can customize the icon for your workspace's root folder. This is helpful if 
 To assign an icon (e.g. the server folder icon) to a root folder (e.g., `backend`), use the following configuration:
 
 ```json
-"material-icon-theme.rootFolders.associations": {
+"quantum-material-icon-theme.rootFolders.associations": {
   "backend": "server"
 }
 ```
@@ -264,7 +264,7 @@ To assign an icon (e.g. the server folder icon) to a root folder (e.g., `backend
 To change the color of root folder icons, add this setting:
 
 ```json
-"material-icon-theme.rootFolders.color": "#F4511E"
+"quantum-material-icon-theme.rootFolders.color": "#F4511E"
 ```
 
 #### Language associations
@@ -272,7 +272,7 @@ To change the color of root folder icons, add this setting:
 With the following configuration you can customize the language icons. It is also possible to overwrite existing associations.
 
 ```json
-"material-icon-theme.languages.associations": {
+"quantum-material-icon-theme.languages.associations": {
   "languageId": "iconName",
   "json": "json"
 }
@@ -285,7 +285,7 @@ You can see the available icon names in the overview above. See "[Known language
 It's also possible to clone existing language icons and change their colors to create new icons that can be associated with language ids. The following example shows how to clone the `autohotkey` language icon:
 
 ```json
-"material-icon-theme.languages.customClones": [
+"quantum-material-icon-theme.languages.customClones": [
   {
     "name": "ahk-clone",
     "base": "autohotkey",
@@ -305,7 +305,7 @@ This will create a new icon called `ahk-clone` which is associated with the lang
 
 ## Commands
 
-Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
+Press `Ctrl-Shift-P` to open the command palette and type `Quantum Icons`.
 
 ![commands](https://raw.githubusercontent.com/material-extensions/vscode-material-icon-theme/main/images/commandPalette.png)
 
@@ -332,8 +332,7 @@ Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
 
 ## Contributors
 
-Thank you to all our amazing contributors!
-Your support helps make Material Icon Theme better for everyone.
+Thank you to all the amazing contributors of Material Icon Theme, which this extension is built on!
 
 [![Contributors](https://raw.githubusercontent.com/material-extensions/vscode-material-icon-theme/main/images/contributors.png)](https://github.com/material-extensions/vscode-material-icon-theme/graphs/contributors)
 
@@ -347,10 +346,10 @@ We welcome contributions of all kinds! Whether you want to add new icons, improv
   Learn about our coding standards, icon design tips, and workflow.
 
 - 🐛 **Report Issues**
-  Found a bug or have an icon request? [Open an issue](https://github.com/material-extensions/vscode-material-icon-theme/issues).
+  Found a bug or have an icon request? [Open an issue](https://github.com/SENODROOM/QuantumMaterialIconTheme/issues).
 
 - 💡 **Submit Pull Requests**
-  Ready to contribute code or icons? [Create a pull request](https://github.com/material-extensions/vscode-material-icon-theme/pulls).
+  Ready to contribute code or icons? [Create a pull request](https://github.com/SENODROOM/QuantumMaterialIconTheme/pulls).
 
 - 🌍 **Help with Translations**
   Improve or add translations by editing the files in `src/core/i18n/translations/` and `package.nls.*.json`.
@@ -371,5 +370,5 @@ We welcome contributions of all kinds! Whether you want to add new icons, improv
   <a href="https://github.com/material-extensions/vscode-material-icon-theme"><img src="https://img.shields.io/github/stars/material-extensions/vscode-material-icon-theme?style=for-the-badge&label=Star%20on%20GitHub&colorA=263238&colorB=1976D2" alt="Star on GitHub"></a>
 </p>
 <p align="center">
-  <em>Enjoying Material Icon Theme? Support the project by starring it or becoming a sponsor!</em>
+  <em>Enjoying these icons? Support the original Material Icon Theme project by starring it or becoming a sponsor!</em>
 </p>

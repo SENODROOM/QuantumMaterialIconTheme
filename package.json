@@ -1,8 +1,8 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
-  "version": "5.39.0",
+  "name": "quantum-material-icon-theme",
+  "displayName": "Quantum Material Icon Theme",
+  "description": "Material Design icons for Visual Studio Code, with icons for Quantum Logics file types",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -32,26 +32,21 @@
     "postpublish": "git checkout package.json && git checkout README.md",
     "prepare": "husky || true"
   },
-  "publisher": "PKief",
+  "publisher": "muhammadsaadamin",
   "author": {
-    "name": "Material Extensions",
-    "email": "material-icons-extensions@googlegroups.com",
-    "url": "https://github.com/material-extensions"
-  },
-  "funding": "https://github.com/sponsors/material-extensions",
-  "sponsor": {
-    "url": "https://github.com/sponsors/material-extensions"
+    "name": "SENODROOM",
+    "url": "https://github.com/SENODROOM"
   },
   "engines": {
     "vscode": "^1.55.0"
   },
-  "homepage": "https://github.com/material-extensions/vscode-material-icon-theme/blob/main/README.md",
+  "homepage": "https://github.com/SENODROOM/QuantumMaterialIconTheme#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-extensions/vscode-material-icon-theme.git"
+    "url": "git+https://github.com/SENODROOM/QuantumMaterialIconTheme.git"
   },
   "bugs": {
-    "url": "https://github.com/material-extensions/vscode-material-icon-theme/issues"
+    "url": "https://github.com/SENODROOM/QuantumMaterialIconTheme/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
@@ -66,7 +61,8 @@
     "theme",
     "material",
     "icon-theme",
-    "customization"
+    "customization",
+    "quantum"
   ],
   "extensionKind": [
     "ui",
@@ -89,65 +85,65 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "material-icon-theme",
-        "label": "Material Icon Theme",
+        "id": "quantum-material-icon-theme",
+        "label": "Quantum Material Icon Theme",
         "path": "./dist/material-icons.json",
         "_watch": true
       }
     ],
     "commands": [
       {
-        "command": "material-icon-theme.activateIcons",
+        "command": "quantum-material-icon-theme.activateIcons",
         "title": "%command.activateIcons%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleIconPacks",
+        "command": "quantum-material-icon-theme.toggleIconPacks",
         "title": "%command.toggleIconPacks%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderTheme",
+        "command": "quantum-material-icon-theme.changeFolderTheme",
         "title": "%command.changeFolderTheme%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderColor",
+        "command": "quantum-material-icon-theme.changeFolderColor",
         "title": "%command.changeFolderColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeRootFolderColor",
+        "command": "quantum-material-icon-theme.changeRootFolderColor",
         "title": "%command.changeRootFolderColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFileColor",
+        "command": "quantum-material-icon-theme.changeFileColor",
         "title": "%command.changeFileColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.restoreDefaultConfig",
+        "command": "quantum-material-icon-theme.restoreDefaultConfig",
         "title": "%command.restoreDefaultConfig%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleExplorerArrows",
+        "command": "quantum-material-icon-theme.toggleExplorerArrows",
         "title": "%command.toggleExplorerArrows%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeOpacity",
+        "command": "quantum-material-icon-theme.changeOpacity",
         "title": "%command.changeOpacity%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleGrayscale",
+        "command": "quantum-material-icon-theme.toggleGrayscale",
         "title": "%command.toggleGrayscale%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeSaturation",
+        "command": "quantum-material-icon-theme.changeSaturation",
         "title": "%command.changeSaturation%",
         "enablement": "!isWeb"
       }
@@ -156,7 +152,7 @@
       "type": "object",
       "title": "%configuration.title%",
       "properties": {
-        "material-icon-theme.activeIconPack": {
+        "quantum-material-icon-theme.activeIconPack": {
           "type": "string",
           "default": "angular",
           "description": "%configuration.activeIconPack%",
@@ -187,27 +183,27 @@
             "none"
           ]
         },
-        "material-icon-theme.files.associations": {
+        "quantum-material-icon-theme.files.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.files.associations%"
         },
-        "material-icon-theme.folders.associations": {
+        "quantum-material-icon-theme.folders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.folders.associations%"
         },
-        "material-icon-theme.rootFolders.associations": {
+        "quantum-material-icon-theme.rootFolders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.rootFolders.associations%"
         },
-        "material-icon-theme.languages.associations": {
+        "quantum-material-icon-theme.languages.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.languages.associations%"
         },
-        "material-icon-theme.files.customClones": {
+        "quantum-material-icon-theme.files.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -284,7 +280,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.languages.customClones": {
+        "quantum-material-icon-theme.languages.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -353,7 +349,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.folders.customClones": {
+        "quantum-material-icon-theme.folders.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -393,7 +389,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.folders.theme": {
+        "quantum-material-icon-theme.folders.theme": {
           "type": "string",
           "default": "specific",
           "description": "%configuration.folders.theme%",
@@ -408,49 +404,49 @@
             "none"
           ]
         },
-        "material-icon-theme.folders.color": {
+        "quantum-material-icon-theme.folders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.folders.color%"
         },
-        "material-icon-theme.rootFolders.color": {
+        "quantum-material-icon-theme.rootFolders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.rootFolders.color%"
         },
-        "material-icon-theme.files.color": {
+        "quantum-material-icon-theme.files.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.files.color%"
         },
-        "material-icon-theme.opacity": {
+        "quantum-material-icon-theme.opacity": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.opacity%"
         },
-        "material-icon-theme.hidesExplorerArrows": {
+        "quantum-material-icon-theme.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.hidesExplorerArrows%"
         },
-        "material-icon-theme.saturation": {
+        "quantum-material-icon-theme.saturation": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.saturation%"
         },
-        "material-icon-theme.enableLogging": {
+        "quantum-material-icon-theme.enableLogging": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.enableLogging%"
         },
-        "material-icon-theme.logLevel": {
+        "quantum-material-icon-theme.logLevel": {
           "type": "string",
           "default": "info",
           "enum": [
