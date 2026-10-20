@@ -719,6 +719,17 @@ export const folderIcons: FolderTheme[] = [
           'kits',
         ],
       },
+      {
+        name: 'folder-compiler',
+        folderNames: [
+          'compiler',
+          'compilers',
+          'compile',
+          'compilation',
+          'transpiler',
+          'transpilers',
+        ],
+      },
       { name: 'folder-helper', folderNames: ['helpers', 'helper'] },
       { name: 'folder-serverless', folderNames: ['serverless'] },
       { name: 'folder-api', folderNames: ['api', 'apis', 'restapi'] },
