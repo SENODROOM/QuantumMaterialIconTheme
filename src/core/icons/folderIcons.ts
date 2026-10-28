@@ -1459,6 +1459,12 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-qpm', folderNames: ['qpm', 'qpm_modules'] },
       { name: 'folder-c', folderNames: ['c'] },
       { name: 'folder-cpp', folderNames: ['cpp', 'c++', 'cxx', 'cplusplus'] },
+      {
+        name: 'folder-compiler',
+        folderNames: ['compiler', 'compilers', 'codegen'],
+      },
+      { name: 'folder-dialect', folderNames: ['dialect', 'dialects'] },
+      { name: 'folder-native', folderNames: ['native', 'natives'] },
     ],
   },
   {

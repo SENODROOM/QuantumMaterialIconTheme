@@ -2,7 +2,7 @@
   "name": "quantum-material-icon-theme",
   "displayName": "Quantum Material Icon Theme",
   "description": "Material Design icons for Visual Studio Code, with icons for Quantum Logics file types",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "MIT",
   "type": "module",
   "scripts": {
