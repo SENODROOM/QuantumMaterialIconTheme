@@ -1439,6 +1439,26 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['redis', 'redis-db', 'redislabs'],
         clone: { base: 'folder-database', color: '#EF5350' },
       },
+      { name: 'folder-memory', folderNames: ['memory', 'memories', 'mem'] },
+      {
+        name: 'folder-lexer',
+        folderNames: [
+          'lexer',
+          'lexers',
+          'lexing',
+          'tokenizer',
+          'tokenizers',
+          'scanner',
+        ],
+      },
+      {
+        name: 'folder-parser',
+        folderNames: ['parser', 'parsers', 'parsing', 'ast'],
+      },
+      { name: 'folder-quantum', folderNames: ['quantum'] },
+      { name: 'folder-qpm', folderNames: ['qpm', 'qpm_modules'] },
+      { name: 'folder-c', folderNames: ['c'] },
+      { name: 'folder-cpp', folderNames: ['cpp', 'c++', 'cxx', 'cplusplus'] },
     ],
   },
   {
