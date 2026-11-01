@@ -728,6 +728,7 @@ export const folderIcons: FolderTheme[] = [
           'compilation',
           'transpiler',
           'transpilers',
+          'codegen',
         ],
       },
       { name: 'folder-helper', folderNames: ['helpers', 'helper'] },
@@ -1468,14 +1469,19 @@ export const folderIcons: FolderTheme[] = [
       },
       { name: 'folder-quantum', folderNames: ['quantum'] },
       { name: 'folder-qpm', folderNames: ['qpm', 'qpm_modules'] },
+      {
+        name: 'folder-qpm-examples',
+        folderNames: ['qpmexamples', 'qpm-examples', 'qpm_examples'],
+      },
       { name: 'folder-c', folderNames: ['c'] },
       { name: 'folder-cpp', folderNames: ['cpp', 'c++', 'cxx', 'cplusplus'] },
-      {
-        name: 'folder-compiler',
-        folderNames: ['compiler', 'compilers', 'codegen'],
-      },
       { name: 'folder-dialect', folderNames: ['dialect', 'dialects'] },
       { name: 'folder-native', folderNames: ['native', 'natives'] },
+      { name: 'folder-ruby', folderNames: ['ruby', 'rb', 'gems', 'rubygems'] },
+      {
+        name: 'folder-installer',
+        folderNames: ['installer', 'installers', 'install', 'installation'],
+      },
     ],
   },
   {
